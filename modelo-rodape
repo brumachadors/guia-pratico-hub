@@ -1,0 +1,86 @@
+Criando um rodapé:
+
+Código CSS:
+
+.container__rodape {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #332F2E;
+  padding: 1em;
+  }
+
+.rodape-imagens {
+  height: 65px;
+  width: auto;
+  text-align: center;
+  }
+
+.rodape-creditos {
+  text-align: center;
+  color: #F6F6F6;
+  font-size: 16px;
+  text-decoration: none;
+  padding-top: 1.5em;
+  }
+  
+.rodape-creditos a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container__rede-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.rede-social-icons {
+  width: 30px;
+  height: 30px;
+}
+
+.rede-social-icons:hover {
+    transform: scale(1.3);
+    transition-delay: 0.1s;
+    border: none;
+}
+
+Código HTML:
+
+<div class="container__rodape">
+    <div style="text-align: center">
+        <img class="rodape-imagens" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/59923c3d5ce741029933944f95b1b403/data" alt="Logo do Instituto Pereira Passos - Monocromático branco">
+    </div>
+
+  <div class="container__rede-social">
+    <!--Instagram-->
+      <a href="#">
+        <img class="rede-social-icons" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/9f178f251dc543fb9511fdc4040d82fb/data" alt="Ícone do instagram">
+      </a>
+
+    <!--Facebook-->
+      <a href="#">
+        <img class="rede-social-icons" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/d337a4e796b84b98888a0a21ea3d9b5f/data" alt="Ícone do facebook">
+      </a>
+
+    <!--Twitter-->
+      <a href="#">
+        <img class="rede-social-icons" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/29a5c13858104a6c8da8b5d4a6d12ea0/data" alt="Ícone do twitter">
+      </a>
+        
+    <!--Youtube-->
+      <a href="#">
+        <img class="rede-social-icons" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/6a6e5ea58da340bd9c9ec64e0068804d/data" alt="Ícone do youtube">
+      </a>
+  </div>
+  
+    <div class="rodape-creditos">
+        <p>Créditos e atribuições:</p>
+        <p>Icons do <a href="https://www.flaticon.com/uicons">Flaticon</a></p>
+        <p>Fotos da <a href="https://unsplash.com/pt-br">Unsplash</a></p>
+    </div>
+</div>
