@@ -1,7 +1,6 @@
 Criando um cabeçalho com dropdown:
 
 Código CSS:
-<style>
     .custom-header {
         text-align: center;
         background-color: #FFFFFF;
@@ -104,7 +103,6 @@ Código CSS:
     .dropdown:hover .dropdown-content {
         display: block;
     }
-</style>
 
 Código HTML:      
 <!--TELAS GRANDES-->
