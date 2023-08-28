@@ -1,6 +1,6 @@
-# Criando um cabeçalho com dropdown:
+Criando um cabeçalho com dropdown:
 
-## CSS:
+Código CSS:
 <style>
     .custom-header {
         text-align: center;
@@ -106,7 +106,7 @@
     }
 </style>
 
-## HTML:      
+Código HTML:      
 <!--TELAS GRANDES-->
 
 <nav class="navbar custom-header hidden-xs hidden-sm hidden-md">
