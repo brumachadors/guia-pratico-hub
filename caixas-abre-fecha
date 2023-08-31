@@ -1,8 +1,4 @@
 HTML:
-<section class="colunas-1024 container__secao">
-    <h3 class="secao-titulo">Caixas abre-fecha</h3>
-</section>
-
 <!-- ÍNICIO DA 1ª CAIXA -->
 <div>
     <div class="col-xs-12 accordion">
