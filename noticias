@@ -1,0 +1,119 @@
+CSS:
+<style>
+    .card-base:hover {
+        border: transparent;
+        text-decoration: none;
+    }
+
+    .card-wide:hover {
+        border: transparent;
+        text-decoration: none;
+    }
+
+    .card-wide-image {
+        width: 128px;
+        height: 128px;
+    }
+</style>
+
+HTML:
+<div>
+    <a href="#">
+        <div class="col-xs-12" style="margin: 10px 0px 10px 0px">
+            <div class="calcite-web">
+                <div class="card-base card-wide">
+                    <div class="card-wide-image-wrap hidden-xs hidden-sm hidden-md">
+                        <img class="card-wide-image" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/34e7d85c38e943fab7f6e1357c9c5b6d/data" alt="Ícone de notícia">
+                    </div>
+                    <div class="card-wide-image-wrap hidden-lg hidden-xl" style="background-color: #000000">
+                    </div>
+                    <div class="card-content" style="color: black; margin: 16px 0px 16px 0px;">
+                        <h4 style="margin: 16px 0px 20px 0px; font-size: 24px">
+                            <b>Título da notícia</b>
+                        </h4>
+                        <p style="margin: 16px 0px 12px 0px;">
+                            DD/MM/AAAA - Fonte
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="col-xs-12" style="margin: 10px 0px 10px 0px">
+            <div class="calcite-web">
+                <div class="card-base card-wide">
+                    <div class="card-wide-image-wrap hidden-xs hidden-sm hidden-md">
+                        <img class="card-wide-image" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/34e7d85c38e943fab7f6e1357c9c5b6d/data" alt="Ícone de notícia">
+                    </div>
+                    <div class="card-wide-image-wrap hidden-lg hidden-xl" style="background-color: #000000">
+                    </div>
+                    <div class="card-content" style="color: black; margin: 16px 0px 16px 0px;">
+                        <h4 style="margin: 16px 0px 20px 0px; font-size: 24px">
+                            <b>Título da notícia</b>
+                        </h4>
+                        <p style="margin: 16px 0px 12px 0px;">
+                            DD/MM/AAAA - Fonte
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- INÍCIO DO BOTÃO DE LEIA MAIS -->
+    <div style="margin-top: 20px; text-align: center">
+        <button class="hook in custom-buttom" data-toggle="collapse" data-target=".hook">
+            Leia mais
+        </button>
+    </div>
+    <div class="collapse hook">
+    <!-- FINAL DO BOTÃO DE LEIA MAIS-->
+
+        <a href="#">
+            <div class="col-xs-12" style="margin: 10px 0px 10px 0px">
+                <div class="calcite-web">
+                    <div class="card-base card-wide">
+                        <div class="card-wide-image-wrap hidden-xs hidden-sm hidden-md">
+                            <img class="card-wide-image" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/34e7d85c38e943fab7f6e1357c9c5b6d/data" alt="Ícone de notícia">
+                        </div>
+                        <div class="card-wide-image-wrap hidden-lg hidden-xl" style="background-color: #000000">
+                        </div>
+                        <div class="card-content" style="color: black; margin: 16px 0px 16px 0px;">
+                            <h4 style="margin: 16px 0px 20px 0px; font-size: 24px">
+                                <b>Título da notícia</b>
+                            </h4>
+                            <p style="margin: 16px 0px 12px 0px;">
+                                DD/MM/AAAA - Fonte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="col-xs-12" style="margin: 10px 0px 10px 0px">
+                <div class="calcite-web">
+                    <div class="card-base card-wide">
+                        <div class="card-wide-image-wrap hidden-xs hidden-sm hidden-md">
+                            <img class="card-wide-image" src="https://pcrj.maps.arcgis.com/sharing/rest/content/items/34e7d85c38e943fab7f6e1357c9c5b6d/data" alt="Ícone de notícia">
+                        </div>
+                        <div class="card-wide-image-wrap hidden-lg hidden-xl" style="background-color: #000000">
+                        </div>
+                        <div class="card-content" style="color: black; margin: 16px 0px 16px 0px;">
+                            <h4 style="margin: 16px 0px 20px 0px; font-size: 24px">
+                                <b>Título da notícia</b>
+                            </h4>
+                            <p style="margin: 16px 0px 12px 0px;">
+                                DD/MM/AAAA - Fonte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</div>
