@@ -1,0 +1,56 @@
+HTML:
+<section class="colunas-1024 container__secao">
+    <h3 class="secao-titulo">Caixas abre-fecha</h3>
+</section>
+
+<!-- ÍNICIO DA 1ª CAIXA -->
+<div>
+    <div class="col-xs-12 accordion">
+        <div class="panel panel-default" style="border: none">
+            <div class="panel-heading" data-target="#titulo-1" style="background-color: #000000; color:#fff; border-bottom:1px solid #fff">
+                <button data-target="#titulo-1" class="accordion btn btn-sm btn-link" aria-labelledby="titulo-1-title" style="color:#fff">
+                    <svg style='fill:#fff'>
+                        <title>Menu Lateral</title>
+                        <use xlink:href='#ember-arcgis-hub-components-hub-icons-angle-up'></use>
+                    </svg>
+                </button>
+                <h5 id="titulo-1-title" class="panel-title" style="font-weight: bold">Insira aqui o seu texto</h5>
+            </div>
+            <div id="titulo-1" class="panel-collapse collapse in">
+                <ul>
+                    <h6 class="modal-title" id="myModalLabel" style="text-align: left;">
+                        Subtítulo
+                    </h6>
+                    <li>Item da lista</li>
+                    <li>Item da lista</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ÍNICIO DA 2ª CAIXA -->
+<div>
+    <div class="col-xs-12 accordion">
+        <div class="panel panel-default" style="border: none">
+            <div class="panel-heading" data-target="#titulo-2" style="background-color: #DCB1E6; color:#fff; border-bottom:1px solid #fff">
+                <button data-target="#titulo-2" class="accordion btn btn-sm btn-link" aria-labelledby="titulo-2-title" style="color:#fff">
+                    <svg style='fill:#fff'>
+                        <title>Menu Lateral</title>
+                        <use xlink:href='#ember-arcgis-hub-components-hub-icons-angle-up'></use>
+                    </svg>
+                </button>
+                <h5 id="titulo-2-title" class="panel-title" style="font-weight: bold">Insira aqui o seu texto</h5>
+            </div>
+            <div id="titulo-2" class="panel-collapse collapse in">
+                <ul>
+                    <h6 class="modal-title" id="myModalLabel" style="text-align: left;">
+                        Subtítulo
+                    </h6>
+                    <li>Item da lista</li>
+                    <li>Item da lista</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
